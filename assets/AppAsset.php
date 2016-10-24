@@ -19,8 +19,25 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
+        'css/materialize.css',
+        'css/materialize.min.css',
+        'css/skel-noscript.css',
+        'css/style.css',
+        'css/style1.css',
+        'css/materialize.min.css',
+        'css/style-1000px.css',
+        'css/style-desktop.css',
+        'css/style-mobile.css',
     ];
     public $js = [
+                'js/html5shiv.js',
+                'js/init.js',
+                 'js/materialize.js',
+                'js/materialize.min.js',
+                'js/skel.min.js',
+                'js/skel-panels.min.js',
+
+
     ];
     public $depends = [
         'yii\web\YiiAsset',
